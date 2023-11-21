@@ -22,7 +22,7 @@
             style="@style/TextAppearance.AppCompat.Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Stay Connected"
+            android:text="Greetings, Quizzer!"
             android:textSize="30sp"
             android:textColor="@color/HeaderColor"
             android:fontFamily="@font/baloo_bhai_2"
@@ -35,6 +35,7 @@
             android:layout_marginTop="8dp"
             android:maxEms="16"
             android:text="Enter your email address and password to get access to your account"
+            android:fontFamily="@font/baloo_bhai_2"
             android:textColor="@color/black" />
 
         <EditText
@@ -44,6 +45,7 @@
             android:layout_marginTop="32dp"
             android:background="@drawable/edit_text_backgroud"
             android:ems="10"
+            android:fontFamily="@font/baloo_bhai_2"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:textSize="16sp" />
@@ -56,6 +58,7 @@
             android:background="@drawable/edit_text_backgroud"
             android:ems="10"
             android:hint="Password"
+            android:fontFamily="@font/baloo_bhai_2"
             android:inputType="textPassword"
             android:textSize="16sp" />
 
@@ -67,6 +70,7 @@
             android:background="@drawable/edit_text_backgroud"
             android:ems="10"
             android:hint="Confirm Password"
+            android:fontFamily="@font/baloo_bhai_2"
             android:inputType="textPassword"
             android:textSize="16sp" />
 
@@ -76,7 +80,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:background="@drawable/btn_primary"
-            android:text="Log In"
+            android:text="Sign Up"
+            android:fontFamily="@font/baloo_bhai_2"
             android:textColor="@color/colorPrimaryButton" />
 
         <TextView

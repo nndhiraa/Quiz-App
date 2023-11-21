@@ -22,6 +22,7 @@
             android:id="@+id/imageView3"
             android:layout_width="336dp"
             android:layout_height="85dp"
+            android:layout_gravity="center"
             android:layout_marginBottom="8dp"
             android:src="@drawable/helu_greet__1"
             app:layout_constraintBottom_toTopOf="@+id/txtLoginHeader"
@@ -73,14 +74,14 @@
             android:textSize="16sp" />
 
         <Button
-            android:background="@drawable/btn_primary"
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimaryButton"
             android:layout_marginTop="24dp"
+            android:background="@drawable/btn_primary"
+            android:fontFamily="@font/baloo_bhai_2"
             android:text="Log In"
-            android:fontFamily="@font/baloo_bhai_2"/>
+            android:textColor="@color/colorPrimaryButton" />
 
         <TextView
             android:textColor="@color/HeaderColor"
